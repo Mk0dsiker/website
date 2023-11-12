@@ -1,7 +1,7 @@
 /* CSS reset                         Color Palette:  */
 /*                             top  #f07241, bottom #480048 */
 /*                             darker #300030 */
-/*                             darker #300030 */
+
 * {
     margin: 0;
     padding: 0;
@@ -37,15 +37,16 @@ header {
     width: 100%;
     height: 100px;
 
-    background-color: #300030;
+    background-color: #480048;
     color: white;
 
     text-align: center;
     font-size: 20px;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
     font-family: 'Indie Flower', cursive;
 
     position: relative;
+
 }
 
 
@@ -66,7 +67,7 @@ header {
     width: 80px;
     border-radius: 50%;
 
-    margin-right: 20px;
+    margin-right: 30px;
 }
 
 .nav_header h2 {
@@ -79,6 +80,8 @@ header {
 
 .nav_header ul {
     flex: 1;
+
+    margin-right: 15px;
 
     display: flex;
     align-items: center;
