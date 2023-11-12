@@ -1,0 +1,161 @@
+/* CSS reset                         Color Palette:  */
+/*                             top  #f07241, bottom #480048 */
+/*                             darker #300030 */
+/*                             darker #300030 */
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+/* CSS body */
+body{
+    font-family: 'Indie Flower', cursive;
+    /* font-family: 'Roboto', sans-serif; */
+    background: linear-gradient(to bottom, #f07241, #480048);
+    
+    height: 100vh;
+    
+}
+
+/* CSS header */
+header {
+    
+    /* background-color: rebeccapurple; */
+    height: 100px;
+
+    padding: 0 100px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    position: relative;
+}
+
+.webMSG {
+    width: 100%;
+    height: 100px;
+
+    background-color: #300030;
+    color: white;
+
+    text-align: center;
+    font-size: 20px;
+    letter-spacing: 2px;
+    font-family: 'Indie Flower', cursive;
+
+    position: relative;
+}
+
+
+    /* disposicion de ancho para contenedores principales */
+.nav_header {
+    width: 100%;
+    
+    border-bottom: 1px solid white;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;    
+}
+
+.nav_header img {
+    /* flex: 1; */
+    
+    width: 80px;
+    border-radius: 50%;
+
+    margin-right: 20px;
+}
+
+.nav_header h2 {
+    flex: 1;
+
+    color: white;
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.nav_header ul {
+    flex: 1;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav_header li {
+    list-style: none;
+    /* height: 90px; */
+    
+    margin-left: 2px;
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    transform: skew(-15deg);
+
+    
+}
+
+.nav_header a {
+    width: 150px;
+    height: 90px;
+    text-decoration: none;
+
+    padding: 5px 10px;
+
+    font-size: 24px;
+    /* font-style: normal; */
+    color: white;
+    /* text-align: center; */
+    /* font-family: 'Roboto', sans-serif; */
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav_header a:hover {
+    background-color:#c04848;
+    color: white;
+}
+
+.spanHeader {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* CSS main */
+
+.container {
+    padding: 20px 200px;
+
+    display: flex;
+    align-items: center ;
+    justify-content: space-around;
+
+    position: absolute;
+}
+
+.mainMSG {
+    width: 50%;
+    
+}
+
+.mainMSG h1 {
+    flex: 1;
+    color: white;
+    font-size: 150px;
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+.mainIMG img{
+    flex: 2;
+    width: 1080px;
+
+    position: relative;
+}
+
+
