@@ -1,6 +1,9 @@
-/* CSS reset                   Color Palette:  */
-/*                             top  #f07241, bottom #480048 */
-/*                             darker #300030 */
+/* CSS reset        */ 
+
+/* Color Palette:   */
+/* top  #f07241     */
+/* bottom #480048   */
+/* darker #300030   */
 
 * {
     margin: 0;
@@ -9,156 +12,143 @@
 }
 
 /* CSS body */
+
 body{
-    font-family: 'Indie Flower', cursive;
-    /* font-family: 'Roboto', sans-serif; */
-    background: linear-gradient(to bottom, #f07241, #480048);
-    
-    height: 1920px;
-    
+    font-family: 'Roboto', sans-serif;
+
 }
 
 /* CSS header */
 header {
-    
-    /* background-color: rebeccapurple; */
-    height: 100px;
-
-    padding: 0 100px;
-
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: space-between;
 
-    position: relative;
 }
 
 .webMSG {
     width: 100%;
-    height: 100px;
-
     background-color: #480048;
     color: white;
 
     text-align: center;
-    font-size: 20px;
-    letter-spacing: 1px;
-    font-family: 'Indie Flower', cursive;
+    font-size: 25px;
+    letter-spacing: 0.8px;
 
-    position: relative;
+    font-family: 'Indie Flower', cursive;
 
 }
 
-
-    /* disposicion de ancho para contenedores principales */
-.nav_header {
+.header {
     width: 100%;
-    
-    border-bottom: 1px solid white;
+    border-bottom: 3px solid #480048;
 
     display: flex;
     align-items: center;
-    justify-content: space-between;    
+    justify-content: space-around;    
 }
 
-.nav_header img {
-    /* flex: 1; */
-    
+.header img {
     width: 80px;
+    height: 80px;
+    margin: 0 15px;
     border-radius: 50%;
-
-    margin-right: 30px;
 }
 
-.nav_header h2 {
+.header h2 {
     flex: 1;
-
-    color: white;
-    font-size: 50px;
+    color: black;
+    font-size: 40px;
     font-weight: 700;
 }
 
-.nav_header ul {
-    flex: 1;
-
-    margin-right: 15px;
+.header ul {
 
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
-.nav_header li {
+.nav_li {
     list-style: none;
-    /* height: 90px; */
-    
-    margin-left: 2px;
-    
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
     transform: skew(-15deg);
 
     
 }
 
-.nav_header a {
-    width: 150px;
-    height: 90px;
+.header a {
     text-decoration: none;
+    height: 80px;
+    padding: 0px 10px;
 
-    padding: 5px 10px;
-
-    font-size: 24px;
-    /* font-style: normal; */
-    color: white;
-    /* text-align: center; */
-    /* font-family: 'Roboto', sans-serif; */
+    font-size: 18px;
+    color: black;
+    font-family: 'Indie Flower', cursive;
     
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.nav_header a:hover {
+.header a:hover {
     background-color:#c04848;
     color: white;
 }
 
 .spanHeader {
     font-family: 'Roboto', sans-serif;
+    color: #c04848;
 }
 
 /* CSS main */
 
 .container {
-    padding: 20px 200px;
+    padding: 0 50px;
 
     display: flex;
+    flex-direction: column;
     align-items: center ;
-    justify-content: space-around;
+}
 
-    position: absolute;
+.section_1, .section_2 {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
 }
 
 .mainMSG {
-    width: 50%;
-    
-}
-
-.mainMSG h1 {
     flex: 1;
-    color: white;
-    font-size: 150px;
-    font-family: 'Roboto', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mainMSG h2 {
+    color: black;
+    font-size: 50px;
+    font-family: 'Indie Flower', cursive;
+
     
 }
-
-.mainIMG img{
-    flex: 2;
-    width: 1080px;
-
-    position: relative;
+.mainIMG {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.mainIMG img {
+    width: 500px;
 }
 
+.mainVID {
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
 
+.mainVID video {
+    width: 500px;
+}

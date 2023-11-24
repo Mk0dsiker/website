@@ -1,0 +1,17 @@
+@media only screen and (max-width: 480px){
+    .nav_container{
+    flex-direction: column;
+    }
+
+    .nav_container ul {
+        flex-direction: column;
+    }
+
+    .mainMSG h2{
+        font-size: 50px;
+    }
+
+    .mainIMG img {
+        width: 100px;
+    }
+}

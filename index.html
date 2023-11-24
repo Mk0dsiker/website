@@ -3,8 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MK eStudio</title>
+    <title>Mkstudio</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
     <!-- Font links -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -14,36 +15,44 @@
 <body>
     <header>
         <div class="webMSG">
-            <p>Hola!, mi nombre es Mirko, este sitio web esta en construcción, aquí podrás ver mi trabajo y además las cosas que me parencen interesantes...</p>
+            <p>Hola!, me llamo Mirko, <i>(this)</i> website esta en construcción, aquí podrás ver mi trabajo y además!, las cosas que me parecen bakanes.</p>
         </div>
-        <div class="nav_header">
-            <img src="assets/img/user-square.png" alt="">
-            <h2><span class="spanHeader">MK</span> eStudio </h2>
-            <nav>
+        <div class="header">
+            <img src="assets/img/user-square.png" alt="use square png">
+            <h2><span class="spanHeader">Mk</span>studio </h2>
+            <nav class="nav_container">
                 <ul>
-                    <li><a href="#" onmouseover="nav_li_change_color(this)">Portafolio Web</a></li>
+                    <li class="nav_li"><a href="#" onmouseover="nav_li_change_color(this)">Portafolio Web</a></li>
                     <li class="nav_li"><a href="#">Portafolio 3D</a></li>
                     <li class="nav_li"><a href="#">Postcast</a></li>
                     <li class="nav_li"><a href="#">Sobre mí</a></li>
                     <li class="nav_li"><a href="#">Contácto</a></li>
                 </ul>
-        </nav>
+            </nav>
         </div>
     </header>
     <main>
         <div class="container">
-            <div class="mainMSG">
-                <h1>ToDo Lo Que VeS AQuí, <br>Lo pueDo hAceR.</h1>
+            <div class="section_1">
+                <div class="mainMSG">
+                    <h2>Todo lo que vez aquí,</h2>
+                </div>
+                <div class="mainIMG">
+                    <img src="assets/img/Modulos.png" alt="modulos png">
+                </div>
             </div>
-            <div class="mainIMG">
-                <!-- <img src="assets/img/Bladerunner Bar.png" alt=""> -->
-                <img src="assets/img/Modulos.png" alt="">
+            <div class="section_2">
+                <div class="mainVID">
+                    <video src="assets/video/island_tournaround.mp4"></video>
+                </div>
+                <div class="mainMSG">
+                    <h2>Lo puedo hacer.</h2>
+                </div>
+                
             </div>
         </div>
     </main>
-    <footer>
-
-    </footer>
+    <footer></footer>
     <script src="js/script.js"></script>
 </body>
 </html>
