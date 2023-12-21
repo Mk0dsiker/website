@@ -1,0 +1,39 @@
+Espumante:
+    12 botellas
+
+Sangria:
+    2 kilo de naranjas
+    1 kilo de arandanos
+    3 pulpas de maracuya
+    3 pulpas de frambueza
+    1 paquete canela en rama
+    1 granadina
+    6 botellones de vino tinto
+    2 botellas de ron
+
+Sour:
+    12 piscos 3R
+    1 malla de limon
+
+Goma: 
+    6 kilos azucar
+
+Destilados:
+    12 Mistral 35
+    6 Ballantines
+    6 Stolichnaya
+    6 Beefeter
+    6 Ron Havana dorado
+
+Bebidas:
+    8 Cocacola Zero 1.5
+    8 Cocacola Zero 1.5
+    6 Canada dry Ginger 1.5
+    6 Tonicas 1.5 
+
+Hielo:
+    6 mallas de 10 kilos
+
+Shop:
+    1 C02
+    1 Barril de Royal

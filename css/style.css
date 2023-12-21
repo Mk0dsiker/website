@@ -19,6 +19,8 @@
     justify-content: center;
 
     box-shadow: 0px 5   px 5px black;
+
+    /* margin-top: 170px; */
 }
 
 .head_title h1 {
@@ -29,4 +31,16 @@
     letter-spacing: 2px;
     /* font-weight: 700; */
     font-family: 'Outrage';
+}
+
+/* CSS Main */
+
+.draw {
+    width: 345px;
+    margin-top: 50px;
+    transform: translateX(30px);
+
+    position: absolute;
+    right: 0;
+    top: 0;
 }
