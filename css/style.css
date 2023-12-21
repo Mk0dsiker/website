@@ -1,154 +1,32 @@
 /* CSS reset        */ 
 
-/* Color Palette:   */
-/* top  #f07241     */
-/* bottom #480048   */
-/* darker #300030   */
-
 * {
     margin: 0;
     padding: 0;
     border: 0;
 }
 
-/* CSS body */
-
-body{
-    font-family: 'Roboto', sans-serif;
-
-}
-
 /* CSS header */
-header {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
 
+.head_container {
+    background-color: grey;
+    border-bottom: 1px solid black;
+
+    height: 100px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    box-shadow: 0px 5   px 5px black;
 }
 
-.webMSG {
-    width: 100%;
-    background-color: #480048;
-    color: white;
-
+.head_title h1 {
+    color: #fff;
+    text-transform: uppercase;
     text-align: center;
-    font-size: 25px;
-    letter-spacing: 0.8px;
-
-    font-family: 'Indie Flower', cursive;
-
-}
-
-.header {
-    width: 100%;
-    border-bottom: 3px solid #480048;
-
-    display: flex;
-    align-items: center;
-    justify-content: space-around;    
-}
-
-.header img {
-    width: 80px;
-    height: 80px;
-    margin: 0 15px;
-    border-radius: 50%;
-}
-
-.header h2 {
-    flex: 1;
-    color: black;
-    font-size: 40px;
-    font-weight: 700;
-}
-
-.header ul {
-
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
-.nav_li {
-    list-style: none;
-    transform: skew(-15deg);
-
-    
-}
-
-.header a {
-    text-decoration: none;
-    height: 80px;
-    padding: 0px 10px;
-
-    font-size: 18px;
-    color: black;
-    font-family: 'Indie Flower', cursive;
-    
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.header a:hover {
-    background-color:#c04848;
-    color: white;
-}
-
-.spanHeader {
-    font-family: 'Roboto', sans-serif;
-    color: #c04848;
-}
-
-/* CSS main */
-
-.container {
-    padding: 0 50px;
-
-    display: flex;
-    flex-direction: column;
-    align-items: center ;
-}
-
-.section_1, .section_2 {
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-
-}
-
-.mainMSG {
-    flex: 1;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.mainMSG h2 {
-    color: black;
-    font-size: 50px;
-    font-family: 'Indie Flower', cursive;
-
-    
-}
-.mainIMG {
-    flex: 1;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.mainIMG img {
-    width: 500px;
-}
-
-.mainVID {
-    display: flex;
-    align-items: center;
-    justify-content: center; 
-}
-
-.mainVID video {
-    width: 500px;
+    font-size: 54px;
+    letter-spacing: 2px;
+    /* font-weight: 700; */
+    font-family: 'Outrage';
 }

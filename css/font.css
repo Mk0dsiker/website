@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Irregular Poster';
+    src: url("../assets/fuentes/irregular_poster_font/Irregular\ Poster.ttf");
+}
+
+@font-face {
+    font-family: 'Outrage';
+    src: url("../assets/fuentes/out_rage_font/Outrage\ PG.otf") , url("../assets/fuentes/out_rage_font/Outrage\ PG\ Bold.otf");
+}
